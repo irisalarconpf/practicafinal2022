@@ -20,7 +20,7 @@ function Login(){
             return
         }
         if(user) {
-            navigate('/home')
+            navigate('/ip')
             }
     }, [user, loading]);
 
@@ -30,7 +30,7 @@ function Login(){
                 <div className="mb-4">
                     <img className={"img"} src={ImageLogo} alt="" />
                     <h1 className="text-2xl font-medium text-primary mt-2  mb-12 text-center text-blanco">
-                        Salud de la Mujer
+                        Practica final
                     </h1>
                 </div>
                 <div className="flex items-center bg-celeste rounded shadow-md mt-4 mb-4">

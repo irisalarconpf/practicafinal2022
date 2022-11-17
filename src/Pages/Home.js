@@ -51,6 +51,7 @@ const Home = () => {
                         className={
                             "btn bg-celeste text-blanco p-20 rounded-lg hover:bg-gris text-center flex flex-col items-center drop-shadow-md"
                         }
+                        onClick={() => navigate("/connection")}
                     >
                         <svg
                             class="w-14 h-14"
@@ -65,202 +66,13 @@ const Home = () => {
                             ></path>
                         </svg>
 
-                        <span className="text-2xl font-bold">Informes</span>
+                        <span className="text-2xl font-bold">Conexion</span>
                     </button>
+
                 </div>
 
             </div>
 
-            {/* table */}
-
-            <div className={"m-12"}>
-                <div className={"flex flex-col"}>
-                    <div className={"overflow-x-auto sm:-mx-6 lg:-mx-8"}>
-                        <div className={"py-2 inline-block min-w-full sm:px-6 lg:px-8"}>
-                            <div className={"overflow-hidden"}>
-                                <table className={"min-w-full"}>
-                                    <thead className={"bg-blanco border-b"}>
-                                    <tr>
-                                        <th
-                                            scope="col"
-                                            medium
-                                            className={
-                                                "text-sm font-medium text-gris px-6 py-4 text-left"
-                                            }
-                                        >
-                                            ID Paciente
-                                        </th>
-                                        <th
-                                            scope="col"
-                                            className={
-                                                "text-sm font-medium text-gris px-6 py-4 text-left"
-                                            }
-                                        >
-                                            Nombre
-                                        </th>
-                                        <th
-                                            scope="col"
-                                            className={
-                                                "text-sm font-medium text-gris px-6 py-4 text-left"
-                                            }
-                                        >
-                                            Fecha
-                                        </th>
-                                        <th
-                                            scope="col"
-                                            className={
-                                                "text-sm font-medium text-gris px-6 py-4 text-left"
-                                            }
-                                        >
-                                            Lugar
-                                        </th>
-                                        <th
-                                            scope="col"
-                                            className={
-                                                "text-sm font-medium text-gris px-6 py-4 text-left"
-                                            }
-                                        >
-                                            Estado de la visita
-                                        </th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    {/* Fila */}
-                                    <tr
-                                        className={
-                                            "bg-blanco border-b transition duration-300 ease-in-out hover:bg-celesteclaro "
-                                        }
-                                    >
-                                        <td
-                                            className={
-                                                "px-6 py-4 whitespace-nowrap text-sm font-medium text-gris"
-                                            }
-                                        >
-                                            1
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            Paciente Prueba
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            8/09/2022
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            Tecpan
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            Pendiente
-                                        </td>
-                                    </tr>
-                                    {/* Fin Fila  */}
-                                    {/* Fila */}
-                                    <tr
-                                        className={
-                                            "bg-blanco border-b transition duration-300 ease-in-out hover:bg-celesteclaro"
-                                        }
-                                    >
-                                        <td
-                                            className={
-                                                "px-6 py-4 whitespace-nowrap text-sm font-medium text-gris"
-                                            }
-                                        >
-                                            1
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            Paciente Prueba
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            8/09/2022
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            Tecpan
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            Pendiente
-                                        </td>
-                                    </tr>
-                                    {/* Fin Fila  */}
-                                    {/* Fila */}
-                                    <tr
-                                        className={
-                                            "bg-blanco border-b transition duration-300 ease-in-out hover:bg-celesteclaro"
-                                        }
-                                    >
-                                        <td
-                                            className={
-                                                "px-6 py-4 whitespace-nowrap text-sm font-medium text-gris"
-                                            }
-                                        >
-                                            1
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            Paciente Prueba
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            8/09/2022
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            Tecpan
-                                        </td>
-                                        <td
-                                            className={
-                                                "text-sm text-gris font-light px-6 py-4 whitespace-nowrap"
-                                            }
-                                        >
-                                            Pendiente
-                                        </td>
-                                    </tr>
-                                    {/* Fin Fila  */}
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </>
     );
 };

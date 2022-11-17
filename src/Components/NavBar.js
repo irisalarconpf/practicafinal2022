@@ -16,22 +16,10 @@ export default function NavBar() {
     const Swal = require('sweetalert2')
 
 
-    const fetchUserName = async () => {
-        try {
-            const q = query(collection(db, "users"), where("uid", "==", user?.uid));
-            const doc = await getDocs(q);
-            const data = doc.docs[0].data();
-            setName(data.displayName);
-        } catch (err) {
-            console.error(err);
-            alert("An error occured while fetching user data");
-        }
-    };
-
     useEffect(() => {
         if(loading) return;
         if(!user) return navigate('/');
-        fetchUserName();
+        //fetchUserName();
         }, [user, loading]
     )
 
