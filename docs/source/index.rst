@@ -1,22 +1,24 @@
 Bienvenidos al proyecto: Prototipo auxiliar en fisioterapia de la articulación tibio-tarsiana utilizando impresión 3d
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+El proyecto consiste en la creación de un prototipo que permita realizar movimientos de extension en el pie de pacientes
+que necesitan realizar este tipo de fisioterapia. Para ello, se utilza Impresión 3D, Aplicación web desarrollada con Reactjs,
+y componentes electronicos que permitan funcionamiento del prototipo.fisioterapia
+
+
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   Este proyecto, continua bajo desarrollo
 
 Contents
 --------
 
 .. toctree::
 
+   empezar
    usage
    api
