@@ -1,4 +1,4 @@
-Welcome to Lumache's documentation!
+Bienvenidos al proyecto: Prototipo auxiliar en fisioterapia de la articulación tibio-tarsiana utilizando impresión 3d
 ===================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
