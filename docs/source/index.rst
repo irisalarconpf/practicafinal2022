@@ -10,7 +10,7 @@ y componentes electronicos que permitan funcionamiento del prototipo.fisioterapi
 
    Este proyecto, continua bajo desarrollo
 
-Contents
+Contenido
 --------
 
 .. toctree::
