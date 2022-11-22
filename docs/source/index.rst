@@ -18,3 +18,6 @@ Contenido
    empezar
    recursos
 
+.. note::
+
+    visita este link para mas informacion www.google.com
