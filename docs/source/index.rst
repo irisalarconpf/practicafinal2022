@@ -16,4 +16,5 @@ Contents
 .. toctree::
 
    empezar
+   recursos
 

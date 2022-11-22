@@ -1,9 +1,10 @@
 Primeros Pasos
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+1. Seguir las instrucciones en el siguiente archivo
 
-Read the tutorial here:
+https://drive.google.com/file/d/1S5nwAk_skaUhGEwHoJIrNV973sTMtcz_/view?usp=share_link
 
-https://docs.readthedocs.io/en/stable/tutorial/
+.. note::
+
+   Para ver el archivo, debes tener las credenciales del correo electronico del proyecto
