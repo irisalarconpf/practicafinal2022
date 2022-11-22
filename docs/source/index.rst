@@ -16,5 +16,4 @@ Contents
 .. toctree::
 
    empezar
-   usage
-   api
+
