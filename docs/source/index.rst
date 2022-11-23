@@ -22,3 +22,14 @@ Contenido
 .. note::
 
     Todos los accesos del proyecto, te serán proporcionados
+
+Actualizar esta Documentacion
+------------------------------
+
+1. Actualiza los archivos .rst del repositorio, según lo que necesites
+2. Realiza un commit para actualizar el repositorio
+3. Ve a readthedocs y realiza un build
+
+.. note::
+
+    Documentación para realizar cambios en archivos .rst: https://sphinx-tutorial.readthedocs.io/step-1/
