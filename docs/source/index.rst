@@ -17,7 +17,8 @@ Contenido
 
    empezar
    recursos
+   modelo
 
 .. note::
 
-    visita este link para mas informacion www.google.com
+    Todos los accesos del proyecto, te serán proporcionados
